@@ -1,8 +1,4 @@
-/* eslint-env browser */
 
-/**
- * This is the web browser implementation of `debug()`.
- */
 
 exports.formatArgs = formatArgs;
 exports.save = save;
