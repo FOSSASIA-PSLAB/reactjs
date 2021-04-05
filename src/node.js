@@ -115,11 +115,7 @@ try {
 	// Swallow - we only care if `supports-color` is available; it doesn't have to be.
 }
 
-/**
- * Build up the default `inspectOpts` object from the environment variables.
- *
- *   $ DEBUG_COLORS=no DEBUG_DEPTH=10 DEBUG_SHOW_HIDDEN=enabled node script.js
- */
+
 
 exports.inspectOpts = Object.keys(process.env).filter(key => {
 	return /^debug_/i.test(key);
